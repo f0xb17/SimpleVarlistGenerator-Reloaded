@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:SimpleVarlistGenerator-Reloaded}",
+      "name": "Debug SimpleVarlistGenerator",
+      "program": "${workspaceFolder:SimpleVarlistGenerator-Reloaded}/.build/debug/SimpleVarlistGenerator",
+      "preLaunchTask": "swift: Build Debug SimpleVarlistGenerator"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:SimpleVarlistGenerator-Reloaded}",
+      "name": "Release SimpleVarlistGenerator",
+      "program": "${workspaceFolder:SimpleVarlistGenerator-Reloaded}/.build/release/SimpleVarlistGenerator",
+      "preLaunchTask": "swift: Build Release SimpleVarlistGenerator"
+    }
+  ]
+}
